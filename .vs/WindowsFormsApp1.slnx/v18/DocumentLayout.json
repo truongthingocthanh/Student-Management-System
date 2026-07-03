@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|d:\\fix\\windowsformsapp1\\windowsformsapp1\\usercontrols\\lecturercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:usercontrols\\lecturercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|d:\\fix\\windowsformsapp1\\windowsformsapp1\\usercontrols\\lecturercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:usercontrols\\lecturercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|d:\\fix\\windowsformsapp1\\windowsformsapp1\\entities\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:entities\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|d:\\fix\\windowsformsapp1\\windowsformsapp1\\usercontrols\\facultycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:usercontrols\\facultycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|d:\\fix\\windowsformsapp1\\windowsformsapp1\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LecturerControl.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\LecturerControl.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs",
+              "RelativeToolTip": "UserControls\\LecturerControl.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAswGkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T13:01:17.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\Entities\\Lecturer.cs",
+              "RelativeDocumentMoniker": "Entities\\Lecturer.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\Entities\\Lecturer.cs",
+              "RelativeToolTip": "Entities\\Lecturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T13:01:42.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LecturerControl.cs [Design]",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\LecturerControl.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs [Design]",
+              "RelativeToolTip": "UserControls\\LecturerControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T13:00:37.637Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FacultyControl.cs [Design]",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\FacultyControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\FacultyControl.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\FacultyControl.cs [Design]",
+              "RelativeToolTip": "UserControls\\FacultyControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:57:17.553Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\GUI\\MainForm.cs",
+              "RelativeDocumentMoniker": "GUI\\MainForm.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\GUI\\MainForm.cs [Design]",
+              "RelativeToolTip": "GUI\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:52:57.797Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
