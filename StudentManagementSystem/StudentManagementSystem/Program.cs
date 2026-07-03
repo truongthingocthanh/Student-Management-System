@@ -1,22 +1,31 @@
+using SQLitePCL;
 using StudentManagementSystem.GUI;
+using StudentManagementSystem.DAL;
 
 namespace StudentManagementSystem
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
+            Batteries.Init();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Mở Form Đăng nhập
+            try
+            {
+                DbConnection.InitializeDatabase();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khởi tạo cơ sở dữ liệu: {ex.Message}", "Lỗi hệ thống", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             LoginForm login = new LoginForm();
 
-            // Kiểm tra kết quả trả về
             if (login.ShowDialog() == DialogResult.OK)
             {
                 Application.Run(new MainForm());
