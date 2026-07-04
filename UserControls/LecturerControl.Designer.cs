@@ -53,12 +53,12 @@
             this.grpLecturerList = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dgvLecturer = new System.Windows.Forms.DataGridView();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.colLecturerID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colFullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colGender = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDegree = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colFaculty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.grpLecturer.SuspendLayout();
             this.grpSearch.SuspendLayout();
             this.grpLecturerList.SuspendLayout();
@@ -380,8 +380,15 @@
             this.dgvLecturer.TabIndex = 0;
             this.dgvLecturer.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLecturer_CellClick);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // colLecturerID
             // 
+            this.colLecturerID.DataPropertyName = "LecturerID";
             this.colLecturerID.HeaderText = "Lecturer ID";
             this.colLecturerID.MinimumWidth = 8;
             this.colLecturerID.Name = "colLecturerID";
@@ -389,6 +396,7 @@
             // 
             // colFullName
             // 
+            this.colFullName.DataPropertyName = "FullName";
             this.colFullName.HeaderText = "Full Name";
             this.colFullName.MinimumWidth = 8;
             this.colFullName.Name = "colFullName";
@@ -396,6 +404,7 @@
             // 
             // colGender
             // 
+            this.colGender.DataPropertyName = "Gender";
             this.colGender.HeaderText = "Gender";
             this.colGender.MinimumWidth = 8;
             this.colGender.Name = "colGender";
@@ -403,6 +412,7 @@
             // 
             // colDegree
             // 
+            this.colDegree.DataPropertyName = "Degree";
             this.colDegree.HeaderText = "Degree";
             this.colDegree.MinimumWidth = 8;
             this.colDegree.Name = "colDegree";
@@ -410,16 +420,11 @@
             // 
             // colFaculty
             // 
+            this.colFaculty.DataPropertyName = "Faculty";
             this.colFaculty.HeaderText = "Faculty Name";
             this.colFaculty.MinimumWidth = 8;
             this.colFaculty.Name = "colFaculty";
             this.colFaculty.ReadOnly = true;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // LecturerControl
             // 

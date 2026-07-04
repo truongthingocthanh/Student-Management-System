@@ -214,6 +214,7 @@
             this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // txtSearch
             // 
@@ -284,6 +285,7 @@
             // 
             // clnFacultyID
             // 
+            this.clnFacultyID.DataPropertyName = "FacultyId";
             this.clnFacultyID.HeaderText = "Faculty ID";
             this.clnFacultyID.MinimumWidth = 8;
             this.clnFacultyID.Name = "clnFacultyID";
@@ -291,6 +293,7 @@
             // 
             // clnFacultyName
             // 
+            this.clnFacultyName.DataPropertyName = "FacultyName";
             this.clnFacultyName.HeaderText = "Faculty Name";
             this.clnFacultyName.MinimumWidth = 8;
             this.clnFacultyName.Name = "clnFacultyName";

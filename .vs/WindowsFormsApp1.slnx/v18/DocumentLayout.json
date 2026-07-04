@@ -3,7 +3,23 @@
   "WorkspaceRootPath": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|d:\\fix\\windowsformsapp1\\windowsformsapp1\\usercontrols\\lecturercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\usercontrols\\facultycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:usercontrols\\facultycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\usercontrols\\facultycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:usercontrols\\facultycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|d:\\fix\\windowsformsapp1\\windowsformsapp1\\gui\\facultycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:gui\\facultycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\entities\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:entities\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\usercontrols\\lecturercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:usercontrols\\lecturercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,16 +27,36 @@
       "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:usercontrols\\lecturercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\entities\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:entities\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\dal\\facultydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:dal\\facultydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\usercontrols\\facultycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:usercontrols\\facultycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|d:\\fix\\windowsformsapp1\\windowsformsapp1\\dal\\lecturerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:dal\\lecturerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\dal\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:dal\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\usercontrols\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:usercontrols\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\entities\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:entities\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\usercontrols\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35C4EFA1-68A8-4C35-85CA-D5D424C2F736}|WindowsFormsApp1.csproj|solutionrelative:usercontrols\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,62 +66,142 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LecturerDAL.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\LecturerDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\LecturerDAL.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\LecturerDAL.cs",
+              "RelativeToolTip": "DAL\\LecturerDAL.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwIkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T16:21:54.443Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LecturerControl.cs",
-              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs",
-              "RelativeDocumentMoniker": "UserControls\\LecturerControl.cs",
-              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs",
-              "RelativeToolTip": "UserControls\\LecturerControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FacultyControl.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\GUI\\FacultyControl.cs",
+              "RelativeDocumentMoniker": "GUI\\FacultyControl.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\GUI\\FacultyControl.cs",
+              "RelativeToolTip": "GUI\\FacultyControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T13:01:17.14Z",
+              "WhenOpened": "2026-07-04T08:40:18.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Lecturer.cs",
-              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\Entities\\Lecturer.cs",
-              "RelativeDocumentMoniker": "Entities\\Lecturer.cs",
-              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\Entities\\Lecturer.cs",
-              "RelativeToolTip": "Entities\\Lecturer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T13:01:42.34Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LecturerControl.cs [Design]",
-              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs",
-              "RelativeDocumentMoniker": "UserControls\\LecturerControl.cs",
-              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs [Design]",
-              "RelativeToolTip": "UserControls\\LecturerControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T13:00:37.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "FacultyControl.cs [Design]",
               "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\FacultyControl.cs",
               "RelativeDocumentMoniker": "UserControls\\FacultyControl.cs",
               "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\FacultyControl.cs [Design]",
               "RelativeToolTip": "UserControls\\FacultyControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T12:57:17.553Z"
+              "WhenOpened": "2026-07-03T12:57:17.553Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FacultyControl.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\FacultyControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\FacultyControl.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\FacultyControl.cs",
+              "RelativeToolTip": "UserControls\\FacultyControl.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAowHQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T17:59:28.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LecturerControl.cs [Design]",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\LecturerControl.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs [Design]",
+              "RelativeToolTip": "UserControls\\LecturerControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T13:00:37.637Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "LecturerControl.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\LecturerControl.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\LecturerControl.cs",
+              "RelativeToolTip": "UserControls\\LecturerControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T13:01:17.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Faculty.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\Entities\\Faculty.cs",
+              "RelativeDocumentMoniker": "Entities\\Faculty.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\Entities\\Faculty.cs",
+              "RelativeToolTip": "Entities\\Faculty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T16:38:16.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FacultyDAL.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\FacultyDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\FacultyDAL.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\FacultyDAL.cs",
+              "RelativeToolTip": "DAL\\FacultyDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T16:21:53.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "DAL\\DatabaseHelper.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\DatabaseHelper.cs",
+              "RelativeToolTip": "DAL\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T16:21:52.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\GUI\\MainForm.cs",
+              "RelativeDocumentMoniker": "GUI\\MainForm.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\GUI\\MainForm.cs",
+              "RelativeToolTip": "GUI\\MainForm.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T16:14:05.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\GUI\\MainForm.cs",
               "RelativeDocumentMoniker": "GUI\\MainForm.cs",
@@ -93,6 +209,41 @@
               "RelativeToolTip": "GUI\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-03T12:52:57.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardControl.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\DashboardControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\DashboardControl.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\DashboardControl.cs",
+              "RelativeToolTip": "UserControls\\DashboardControl.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvyMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T19:08:03.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\Entities\\Lecturer.cs",
+              "RelativeDocumentMoniker": "Entities\\Lecturer.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\Entities\\Lecturer.cs",
+              "RelativeToolTip": "Entities\\Lecturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T13:01:42.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashboardControl.cs [Design]",
+              "DocumentMoniker": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\DashboardControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\DashboardControl.cs",
+              "ToolTip": "D:\\Fix\\WindowsFormsApp1\\WindowsFormsApp1\\UserControls\\DashboardControl.cs [Design]",
+              "RelativeToolTip": "UserControls\\DashboardControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T16:09:57.622Z"
             }
           ]
         }
