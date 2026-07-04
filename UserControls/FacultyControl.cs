@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.DAL;
+using WindowsFormsApp1.Entities;
 
 namespace WindowsFormsApp1
 {
@@ -14,12 +16,13 @@ namespace WindowsFormsApp1
     {
         private bool isAdding = false;
         private bool isEditing = false;
+        private FacultyDAL facultyDAL = new FacultyDAL();
 
         public FacultyControl()
         {
             InitializeComponent();
 
-            EnableInput(false);
+            EnableInput(true);
         }
         private void ClearInput()
         {
@@ -34,6 +37,12 @@ namespace WindowsFormsApp1
             btnSave.Enabled = enable;
             btnCancel.Enabled = enable;
         }
+
+        private void LoadFaculty()
+        {
+            dgvFaculty.AutoGenerateColumns = false;
+            dgvFaculty.DataSource = facultyDAL.GetAllFaculties();
+        }
         private void dgvFaculty_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -46,7 +55,7 @@ namespace WindowsFormsApp1
 
         private void FacultyControl_Load(object sender, EventArgs e)
         {
-
+            LoadFaculty();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -55,7 +64,6 @@ namespace WindowsFormsApp1
             isEditing = false;
 
             ClearInput();
-
             EnableInput(true);
 
             txtFacultyId.Focus();
@@ -77,20 +85,36 @@ namespace WindowsFormsApp1
                 return;
             }
 
+            Faculty faculty = new Faculty();
+            faculty.FacultyId = txtFacultyId.Text.Trim();
+            faculty.FacultyName = txtFacultyName.Text.Trim();
+
+            bool result = false;
+
             if (isAdding)
             {
-                MessageBox.Show("Add successful! (Demo)");
+                result = facultyDAL.AddFaculty(faculty);
             }
             else if (isEditing)
             {
-                MessageBox.Show("Update successful! (Demo)");
+                result = facultyDAL.UpdateFaculty(faculty);
             }
 
-            ClearInput();
-            EnableInput(false);
+            if (result)
+            {
+                MessageBox.Show("Saved successfully.");
 
-            isAdding = false;
-            isEditing = false;
+                LoadFaculty();
+                ClearInput();
+                EnableInput(false);
+
+                isAdding = false;
+                isEditing = false;
+            }
+            else
+            {
+                MessageBox.Show("Save failed.");
+            }
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -142,10 +166,50 @@ namespace WindowsFormsApp1
 
             if (result == DialogResult.Yes)
             {
-                MessageBox.Show("Delete successful! (Demo)");
+                if (facultyDAL.DeleteFaculty(txtFacultyId.Text.Trim()))
+                {
+                    MessageBox.Show("Deleted successfully.");
 
-                ClearInput();
+                    LoadFaculty();
+                    ClearInput();
+                }
+                else
+                {
+                    MessageBox.Show("Delete failed.");
+                }
             }
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            string keyword = txtSearch.Text.Trim();
+
+            if (keyword == "")
+            {
+                LoadFaculty();
+                return;
+            }
+
+            dgvFaculty.DataSource = facultyDAL.SearchFaculty(keyword);
+
+            if (dgvFaculty.Rows.Count == 0)
+            {
+                MessageBox.Show("No faculty found!",
+                                "Search",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Information);
+            }
+        }
+
+        private void dgvFaculty_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0)
+                return;
+
+            DataGridViewRow row = dgvFaculty.Rows[e.RowIndex];
+
+            txtFacultyId.Text = row.Cells["FacultyId"].Value.ToString();
+            txtFacultyName.Text = row.Cells["FacultyName"].Value.ToString();
         }
     }
 }

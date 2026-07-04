@@ -61,5 +61,10 @@ namespace WindowsFormsApp1
             lblPageTitle.Text = "Lecturer";
 
         }
+
+        private void pnlHeader_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

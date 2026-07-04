@@ -177,10 +177,12 @@
             // 
             // pnlMenu
             // 
+            this.pnlMenu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlMenu.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.pnlMenu.Controls.Add(this.pnlLecturer);
             this.pnlMenu.Controls.Add(this.pnlFaculty);
             this.pnlMenu.Controls.Add(this.pnlDashboard);
-            this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlMenu.Location = new System.Drawing.Point(0, 270);
             this.pnlMenu.Name = "pnlMenu";
             this.pnlMenu.Size = new System.Drawing.Size(230, 282);
@@ -347,6 +349,7 @@
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.Size = new System.Drawing.Size(809, 70);
             this.pnlHeader.TabIndex = 1;
+            this.pnlHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlHeader_Paint);
             // 
             // label1
             // 
@@ -396,7 +399,6 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1039, 672);
