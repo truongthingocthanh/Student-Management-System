@@ -28,24 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            flowLayoutPanel1 = new FlowLayoutPanel();
+            btnManageAccounts = new Button();
+            btnManageStudents = new Button();
             SuspendLayout();
             // 
-            // flowLayoutPanel1
+            // btnManageAccounts
             // 
-            flowLayoutPanel1.BackgroundImage = Properties.Resources.school;
-            flowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-            flowLayoutPanel1.Location = new Point(-2, -3);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(987, 524);
-            flowLayoutPanel1.TabIndex = 0;
+            btnManageAccounts.Location = new Point(518, 89);
+            btnManageAccounts.Name = "btnManageAccounts";
+            btnManageAccounts.Size = new Size(168, 34);
+            btnManageAccounts.TabIndex = 0;
+            btnManageAccounts.Text = "Manage Accounts";
+            btnManageAccounts.UseVisualStyleBackColor = true;
+            btnManageAccounts.Click += btnManageAccounts_Click;
+            // 
+            // btnManageStudents
+            // 
+            btnManageStudents.Location = new Point(468, 188);
+            btnManageStudents.Name = "btnManageStudents";
+            btnManageStudents.Size = new Size(163, 34);
+            btnManageStudents.TabIndex = 1;
+            btnManageStudents.Text = "Manage Students";
+            btnManageStudents.UseVisualStyleBackColor = true;
+            btnManageStudents.Click += btnManageStudents_Click;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(984, 517);
-            Controls.Add(flowLayoutPanel1);
+            ClientSize = new Size(908, 457);
+            Controls.Add(btnManageStudents);
+            Controls.Add(btnManageAccounts);
             Name = "MainForm";
             Text = "Form1";
             WindowState = FormWindowState.Maximized;
@@ -54,6 +67,7 @@
 
         #endregion
 
-        private FlowLayoutPanel flowLayoutPanel1;
+        private Button btnManageAccounts;
+        private Button btnManageStudents;
     }
 }

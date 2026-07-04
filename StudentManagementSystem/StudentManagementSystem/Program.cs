@@ -13,13 +13,15 @@ namespace StudentManagementSystem
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Mở Form Đăng nhập
             LoginForm login = new LoginForm();
 
-            // Kiểm tra kết quả trả về
             if (login.ShowDialog() == DialogResult.OK)
             {
-                Application.Run(new MainForm());
+                // Lấy tên tài khoản vừa đăng nhập thành công
+                string currentUser = login.LoggedInUsername;
+
+                // Mở Trang chủ và truyền tên tài khoản vào
+                Application.Run(new MainForm(currentUser));
             }
         }
     }
