@@ -34,7 +34,7 @@
             // 
             // btnManageAccounts
             // 
-            btnManageAccounts.Location = new Point(518, 89);
+            btnManageAccounts.Location = new Point(12, 27);
             btnManageAccounts.Name = "btnManageAccounts";
             btnManageAccounts.Size = new Size(168, 34);
             btnManageAccounts.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // btnManageStudents
             // 
-            btnManageStudents.Location = new Point(468, 188);
+            btnManageStudents.Location = new Point(186, 27);
             btnManageStudents.Name = "btnManageStudents";
             btnManageStudents.Size = new Size(163, 34);
             btnManageStudents.TabIndex = 1;
