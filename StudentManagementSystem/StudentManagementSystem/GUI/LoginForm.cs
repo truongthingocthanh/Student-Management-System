@@ -92,5 +92,28 @@ namespace StudentManagementSystem.GUI
                 }
             }
         }
+<<<<<<< Updated upstream
+=======
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> Stashed changes
     }
 }
